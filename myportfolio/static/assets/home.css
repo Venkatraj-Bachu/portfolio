@@ -161,8 +161,45 @@ body {
   background-color: #f1faee;
 }
 
+.project-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .project-grid-box {
-  width: 50px;
-  height: 50px;
+  width: 30%;
+  height: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.project-grid-box :hover {
+  cursor: pointer;
+}
+
+.project-grid-box-top {
+  width: 100%;
+  height: 80%;
+}
+.project-grid-box-bottom {
+  width: 100%;
+  height: 20%;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+.project-image {
+  height: 100%;
+  width: 100%;
   border: 0.5px solid black;
+}
+
+.project-description {
+  margin-left: 5%;
+  margin-right: 5%;
 }

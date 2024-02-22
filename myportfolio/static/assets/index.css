@@ -1,0 +1,149 @@
+.center {
+  text-align: center;
+}
+
+.introduction {
+  display: flex;
+}
+
+.flex-item {
+  padding: 100px 10px;
+}
+
+.left-half {
+  width: 35%;
+  background-color: #000000;
+  color: white;
+}
+
+.right-half {
+  background-color: #343a40;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-top {
+  position: relative;
+  transform: translate(-130px, 50px);
+  color: white;
+  font-size: large;
+}
+
+.name-tag-caption-background {
+  background-color: #ffd166;
+  width: fit-content;
+  height: fit-content;
+  align-items: end;
+  margin-left: 52%;
+  margin-top: -8%;
+}
+
+.name-tag-text {
+  padding: 10px;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: fit-content;
+  margin-left: 38%;
+  margin-top: 25%;
+}
+
+.name-tag-caption {
+  color: #1b263b;
+  margin-top: -2%;
+  text-align: right;
+  text-transform: capitalize;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+/* NAV BAR */
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  background-color: #e5e5e5;
+
+  position: absolute;
+  top: 1.5%;
+  left: 36%;
+  right: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  float: inline-end;
+}
+
+.nav-bar a {
+  padding: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar a:hover {
+  cursor: pointer;
+  background-color: white;
+  transform: scale(1.2);
+}
+
+.nav-bar li:hover {
+  transform: scale(1.2);
+}
+
+/* Profile Pic */
+.profile-image {
+  top: -10%;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  margin-top: -10%;
+  margin-bottom: -10%;
+  bottom: 0%;
+}
+
+.profile-pic {
+  width: inherit;
+  height: inherit;
+  top: -10%;
+  right: 0;
+  margin-top: -10;
+}
+
+.role {
+  color: white;
+  margin-top: 10%;
+  align-items: center;
+  text-align: center;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  background-color: #343a40;
+}
+
+.tech-category {
+  margin-top: 125px;
+}
+
+.languages {
+  background-color: #000000;
+  color: red;
+}
+
+.tech-stack ul {
+  list-style-type: none;
+}
+
+.tech-stack {
+  text-align: center;
+  justify-content: center;
+  width: 75%;
+  margin-left: 12.5%;
+}

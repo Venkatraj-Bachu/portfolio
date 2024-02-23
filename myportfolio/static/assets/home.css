@@ -5,6 +5,7 @@ body {
 .introduction {
   height: fit-content;
   width: 100%;
+  background-image: url(..\images\Hacker-Wallpaper.gif);
   background: linear-gradient(
     to right,
     #a8dadc 0%,
@@ -12,6 +13,7 @@ body {
     #f1faee 50%,
     #f1faee 100%
   );
+
   text-align: center;
   align-items: center;
   padding: 10px;
@@ -120,6 +122,7 @@ body {
 
 .tech-stack {
   background-color: #1b263b;
+  padding: 15px;
 }
 
 .tech-stack-grid {
@@ -159,16 +162,20 @@ body {
 
 .projects {
   background-color: #f1faee;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .project-grid {
+  margin-left: 2%;
+  margin-right: 2%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .project-grid-box {
-  width: 30%;
+  width: 31%;
   height: 250px;
   margin: 10px;
   display: flex;
@@ -202,4 +209,53 @@ body {
 .project-description {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.more-button {
+  border-radius: 15%;
+  background-color: #415a77;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.more-button:hover {
+  transform: scale(1.2);
+}
+
+.contact-me {
+  background-color: #457b9d;
+  align-items: center;
+}
+
+.contact-form {
+  padding: 10px;
+  align-items: center;
+}
+
+.social-icons {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.social-icon {
+  padding: 10px;
+  font-size: 40px;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icon-a {
+  text-decoration: none;
+  color: #1b263b;
 }
